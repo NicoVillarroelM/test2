@@ -25,6 +25,7 @@ import { Heading, Paragraph } from '../../devlink/_Builtin';
           maxWidth: '600px',
           margin: '0 auto'
         }}
+      
       >
         <Heading tag='h1' className="margin-bottom-24px uui-heading-xlarge">Welcome to Webflow Cloud</Heading>
         <Paragraph className="margin-bottom-24px ">This is a simple test using Basic components with enhanced styling.</Paragraph>
@@ -37,6 +38,12 @@ import { Heading, Paragraph } from '../../devlink/_Builtin';
             className="button-primary"
           >
             Get Started
+          </Link>
+
+          <Link button={true} options={{
+              href: "https://developers.webflow.com/webflow-cloud/getting-started"
+            }} className="uui-button is-button-large w-inline-block">
+            <div>Iniciar sesión</div>
           </Link>
         </div>
       </Block>
