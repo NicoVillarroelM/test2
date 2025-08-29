@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { Section, Container, Block, Link } from '../../devlink/_Builtin/Basic';
+import { Heading, Paragraph } from '../../devlink/_Builtin';
 ---
 
 <Layout>
@@ -25,8 +26,8 @@ import { Section, Container, Block, Link } from '../../devlink/_Builtin/Basic';
           margin: '0 auto'
         }}
       >
-        <h1 class="margin-bottom-24px">Welcome to Webflow Cloud</h1>
-        <p class="margin-bottom-24px">This is a simple test using Basic components with enhanced styling.</p>
+        <Heading tag='h1' className="margin-bottom-24px uui-heading-xlarge">Welcome to Webflow Cloud</Heading>
+        <Paragraph className="margin-bottom-24px ">This is a simple test using Basic components with enhanced styling.</Paragraph>
         <div style={{marginTop: '12px'}}>
           <Link
             button={true}
