@@ -9,4 +9,6 @@ export * from "./devlinkContext";
 export * from "./interactions";
 export * from "./utils";
 export * from "./devlink";
+export * from "./BoxSection";
+export * from "./Button";
 export * from "./DevLinkProvider";

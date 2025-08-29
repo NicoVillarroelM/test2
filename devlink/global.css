@@ -2192,10 +2192,10 @@ textarea.w-select {
   --flowui-component-library-gray-100: #f7f9fd;
   --untitled-ui--gray700: #344054;
   --untitled-ui--white: white;
-  --untitled-ui--primary700: #6941c6;
+  --untitled-ui--primary700: hsla(118, 82.19%, 20.13%, 1.00);
   --untitled-ui--gray600: #475467;
   --untitled-ui--gray100: #f2f4f7;
-  --untitled-ui--primary600: #7f56d9;
+  --untitled-ui--primary600: hsla(148, 100.00%, 50.89%, 1.00);
   --untitled-ui--gray900: #101828;
   --untitled-ui--primary100: #f4ebff;
   --untitled-ui--gray300: #d0d5dd;

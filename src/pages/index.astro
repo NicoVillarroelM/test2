@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import { Section, Container, Block, Link } from '../../devlink/_Builtin/Basic';
 import { Heading, Paragraph } from '../../devlink/_Builtin';
+import { Button } from '../../devlink';
+
 ---
 
 <Layout>
@@ -40,11 +42,10 @@ import { Heading, Paragraph } from '../../devlink/_Builtin';
             Get Started
           </Link>
 
-          <Link button={true} options={{
-              href: "https://developers.webflow.com/webflow-cloud/getting-started"
-            }} className="uui-button is-button-large w-inline-block">
-            <div>Iniciar sesión</div>
-          </Link>
+      <Button
+        url="https://developers.webflow.com/webflow-cloud/getting-started"
+        text="Iniciar cualquier wea"
+      />
         </div>
       </Block>
     </Container>
