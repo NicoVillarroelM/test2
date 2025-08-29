@@ -1,0 +1,20 @@
+{
+  "cloud": {
+    "framework": "astro",
+    "project_id": "06d7c613-f783-4ccc-abb5-40998fc0068f"
+  },
+  "devlink": {
+    "rootDir": "./devlink",
+    "cssModules": true,
+    "fileExtensions": {
+      "js": "jsx"
+    }
+  },
+  "telemetry": {
+    "global": {
+      "allowTelemetry": false,
+      "lastPrompted": 1756436453925,
+      "version": "1.8.38"
+    }
+  }
+}
